@@ -1,0 +1,22 @@
+﻿<Window x:Class="ClientUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClientUI"
+        mc:Ignorable="d"
+        Title="IWS Velibs" Height="319.963" Width="515.858">
+    
+    
+    <Grid>
+        <ListBox x:Name="listeVilles" HorizontalAlignment="Left" Height="97" Margin="10,40,0,0" VerticalAlignment="Top" Width="174" SelectionChanged="listeVilles_SelectionChanged"/>
+        <Label Content="Villes" HorizontalAlignment="Left" Margin="10,9,0,0" VerticalAlignment="Top" Width="125"/>
+        <ListBox x:Name="listeStations" HorizontalAlignment="Left" Height="96" Margin="207,41,0,0" VerticalAlignment="Top" Width="289" SelectionChanged="listeStations_SelectionChanged"/>
+        <Label Content="Stations" HorizontalAlignment="Left" Margin="207,10,0,0" VerticalAlignment="Top" Width="125"/>
+        <Label x:Name="nomStation" Content="Détails" HorizontalAlignment="Left" Margin="10,149,0,0" VerticalAlignment="Top" Width="486"/>
+        <ItemsControl x:Name="detailsStation" HorizontalAlignment="Left" Height="96" Margin="10,180,0,0" VerticalAlignment="Top" Width="486" FontSize="18"/>
+
+    </Grid>
+    
+
+</Window>
