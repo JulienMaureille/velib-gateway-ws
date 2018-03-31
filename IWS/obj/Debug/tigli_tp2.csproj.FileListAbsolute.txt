@@ -1,0 +1,9 @@
+C:\Users\Julien\source\repos\tigli_tp2\tigli_tp2\bin\Debug\tigli_tp2.dll.config
+C:\Users\Julien\source\repos\tigli_tp2\tigli_tp2\bin\Debug\tigli_tp2.dll
+C:\Users\Julien\source\repos\tigli_tp2\tigli_tp2\bin\Debug\tigli_tp2.pdb
+C:\Users\Julien\source\repos\tigli_tp2\tigli_tp2\obj\Debug\tigli_tp2.csprojResolveAssemblyReference.cache
+C:\Users\Julien\source\repos\tigli_tp2\tigli_tp2\obj\Debug\tigli_tp2.csproj.CoreCompileInputs.cache
+C:\Users\Julien\source\repos\tigli_tp2\tigli_tp2\obj\Debug\tigli_tp2.dll
+C:\Users\Julien\source\repos\tigli_tp2\tigli_tp2\obj\Debug\tigli_tp2.pdb
+C:\Users\Julien\source\repos\tigli_tp2\tigli_tp2\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Julien\source\repos\tigli_tp2\tigli_tp2\bin\Debug\Newtonsoft.Json.xml
