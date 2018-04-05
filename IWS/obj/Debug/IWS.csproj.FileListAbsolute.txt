@@ -7,3 +7,12 @@ C:\Users\Julien\source\repos\tigli_tp2\tigli_tp2\obj\Debug\IWS.csproj.CoreCompil
 C:\Users\Julien\source\repos\tigli_tp2\tigli_tp2\obj\Debug\tigli_tp2.dll
 C:\Users\Julien\source\repos\tigli_tp2\tigli_tp2\obj\Debug\tigli_tp2.pdb
 C:\Users\Julien\source\repos\tigli_tp2\tigli_tp2\obj\Debug\IWS.csprojResolveAssemblyReference.cache
+C:\Users\Julien\source\repos\tigli_tp2\IWS\bin\Debug\tigli_tp2.dll.config
+C:\Users\Julien\source\repos\tigli_tp2\IWS\bin\Debug\tigli_tp2.dll
+C:\Users\Julien\source\repos\tigli_tp2\IWS\bin\Debug\tigli_tp2.pdb
+C:\Users\Julien\source\repos\tigli_tp2\IWS\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Julien\source\repos\tigli_tp2\IWS\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Julien\source\repos\tigli_tp2\IWS\obj\Debug\IWS.csprojResolveAssemblyReference.cache
+C:\Users\Julien\source\repos\tigli_tp2\IWS\obj\Debug\IWS.csproj.CoreCompileInputs.cache
+C:\Users\Julien\source\repos\tigli_tp2\IWS\obj\Debug\tigli_tp2.dll
+C:\Users\Julien\source\repos\tigli_tp2\IWS\obj\Debug\tigli_tp2.pdb

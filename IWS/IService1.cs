@@ -7,7 +7,7 @@ using System.Text;
 
 namespace iws
 {
-    [ServiceContract]
+    [ServiceContract(CallbackContract = typeof(IService1Events))]
     public interface IService1
     {
         /**
@@ -15,6 +15,12 @@ namespace iws
          **/
         [OperationContract]
         List<string> GetInfo(string station, string cityName);
+
+        [OperationContract]
+        void SubscribeGetInfoDoneEvent();
+
+        [OperationContract]
+        void SubscribeGetInfoFinishedEvent();
 
         [OperationContract]
         List<string> GetStations(string cityName);

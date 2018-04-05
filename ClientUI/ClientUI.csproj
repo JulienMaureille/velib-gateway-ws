@@ -92,8 +92,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-    <ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\IWS\IWS.csproj">
+      <Project>{F8C608FA-7F79-470B-A34F-4879E5CA488D}</Project>
+      <Name>IWS</Name>
+    </ProjectReference>
     <ProjectReference Include="..\tigli_tp2\IWS.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

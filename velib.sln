@@ -11,6 +11,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientConsole", "ClientCons
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientUI", "ClientUI\ClientUI.csproj", "{852D5C39-81B3-4070-B230-18E0BB4B8C1F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F8C608FA-7F79-470B-A34F-4879E5CA488D} = {F8C608FA-7F79-470B-A34F-4879E5CA488D}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

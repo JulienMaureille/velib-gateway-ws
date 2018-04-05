@@ -21,7 +21,10 @@ namespace iws
 
         WebRequest request;
         Cache cache = new Cache();
-        
+
+        static Action<string, string, List<string>> m_Event1 = delegate { };
+        static Action m_Event2 = delegate { };
+
 
         public List<string> GetCities()
         {
@@ -40,6 +43,9 @@ namespace iws
                 res = new List<string>();
                 res.Add("Station non trouvée");
             }
+
+            m_Event1(stationName, cityName, res);
+            m_Event2();
 
             return res;
 
@@ -82,6 +88,19 @@ namespace iws
         public List<string> GetStations(string cityName)
         {
             return cache.getStations(cityName).Keys.ToList();
+        }
+
+        public void SubscribeGetInfoDoneEvent()
+        {
+            IService1Events subscriber =
+            OperationContext.Current.GetCallbackChannel<IService1Events>();
+            m_Event1 += subscriber.GetInfoDone;
+        }
+
+        public void SubscribeGetInfoFinishedEvent()
+        {
+            IService1Events subscriber = OperationContext.Current.GetCallbackChannel<IService1Events>();
+            m_Event2 += subscriber.GetInfoFinished;
         }
     }
 
